@@ -124,7 +124,7 @@ const Portfolio = ({ id }) => {
                             key={index}
                             src={technologyIcons[tech]}
                             alt={tech}
-                            className="w-16 h-10 inline-block mr-2"
+                            className="w-6 h-10 inline-block mr-2"
                           />
                         ))}
                       </div>
