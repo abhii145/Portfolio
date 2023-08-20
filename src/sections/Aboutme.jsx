@@ -1,10 +1,10 @@
 import meImage from "../assets/images/working.gif";
 
-const Aboutme = ({id}) => {
+const Aboutme = ({ id }) => {
   return (
     <div id={id}>
       <div className="container mx-auto">
-        <h2 className="text-2xl font-semibold mb-6 text-pblue">About me</h2>
+        <h2 className="text-3xl font-semibold mb-6 text-pblue">About me</h2>
         <div className="flex flex-col md:flex-row md:items-center gap-8 mb-6">
           <div className="w-full md:w-1/2 mb-4 md:mb-0">
             <img
@@ -14,21 +14,33 @@ const Aboutme = ({id}) => {
             />
           </div>
           <div className="w-full md:w-1/2 text-left">
-            <p className="mt-4 lg:max-w-lg info-text">
-              A passionate and results-driven Frontend Developer with a keen eye
-              for crafting captivating user experiences. My arsenal of skills
-              includes proficiency in HTML5, CSS3, and Bootstrap, allowing me to
-              mold pixel-perfect designs into reality. My command over
-              JavaScript and TypeScript empowers me to create dynamic and
-              interactive web applications that engage and delight users. I am
-              well-versed in leveraging the power of React.js and Next.js to
-              build seamless, performant, and scalable front-end solutions. When
-              it comes to state management, Redux is my tool of choice, ensuring
-              that complex data flows are managed with elegance and efficiency.
-              My familiarity with MongoDB enables me to seamlessly integrate
-              databases, ensuring that the backend and frontend work
-              harmoniously. Git is my trusted companion, helping me collaborate
-              with teams and track changes effortlessly.
+            <p className="lg:max-w-lg info-text">
+              👋 Hey there! I&apos;m Abhishek Yadav, a passionate frontend
+              developer with four years of hands-on experience in crafting
+              captivating web experiences.
+              <p className="mt-1 lg:max-w-lg info-text">
+                🚀 My journey began with HTML and CSS, and over the years,
+                I&apos;ve honed my skills in JavaScript and TypeScript, using
+                them to bring ideas to life and create dynamic user interfaces.
+              </p>
+              <p className="mt-1 lg:max-w-lg info-text">
+                ⚛️ I thrive in the world of React.js and Next.js, utilizing
+                these powerful tools to build responsive, performant, and
+                user-friendly applications that leave a lasting impression.
+              </p>
+              <p className="mt-1 lg:max-w-lg info-text">
+                💡 Beyond coding, I&apos;m well-versed in MongoDB for handling
+                data and Git for seamless collaboration within development
+                teams.{" "}
+              </p>
+              <p className="mt-1 lg:max-w-lg info-text">
+                🌟 I&apos;m all about turning design into reality and enhancing
+                user interactions.
+                <span className="text-coral-red">
+                  {" "}
+                  Let&apos;s connect and create something amazing together!
+                </span>
+              </p>
             </p>
           </div>
         </div>

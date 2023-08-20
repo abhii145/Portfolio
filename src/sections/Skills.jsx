@@ -26,8 +26,8 @@ const Skills = () => {
   return (
     <div className="py-1">
       <div className="container mx-auto ">
-        <h2 className="text-2xl font-semibold mb-6 text-pblue">
-          Tech Skills :
+        <h2 className="text-3xl font-semibold mb-6 text-pblue">
+          Tech Skills 
         </h2>
         <div className="flex flex-wrap justify-center gap-6">
           {icons.map((icon) => (

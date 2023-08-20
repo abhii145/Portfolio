@@ -2,7 +2,7 @@ import meImage from "../assets/images/me.jpg";
 import { BiSolidDownload } from "react-icons/bi";
 import resume from "../assets/Frontend_developer.pdf";
 
-const Hero = ({id}) => {
+const Hero = ({ id }) => {
   const handleDownloadResume = () => {
     const resumeFilePath = resume;
     const link = document.createElement("a");
@@ -20,12 +20,11 @@ const Hero = ({id}) => {
           Frontend Developer
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
-        Hi, I&apos;m Abhishek Yadav. A passionate Front-end Developer based in Mumbai, India. 📍
+          Hi, I&apos;m Abhishek Yadav. A passionate Front-end Developer with 4
+          years of professional experience in Web Designing and User Interface
+          Development. Proficiency in code optimization to improve performance.
+        </p>
 
-        </p>
-        <p className="mt-6 lg:max-w-lg info-text">
-          Our dedication to detail and excellence ensures your satisfaction
-        </p>
         <div className="mt-11">
           <button className="btn third" onClick={handleDownloadResume}>
             <span className="github-text">Resume</span>

@@ -1,13 +1,12 @@
+import LocationIcon from "../assets/icon/location.svg";
+import MailIcon from "../assets/icon/mail.svg";
 
-import LocationIcon from '../assets/icon/location.svg';
-import MailIcon from '../assets/icon/mail.svg';
-
-const ContactPage = ({id}) => {
+const ContactPage = ({ id }) => {
   return (
     <div className="py-8" id={id}>
       <div className="container mx-auto">
-        <h2 className="text-2xl font-semibold mb-6 text-pblue">Contact Me</h2>
-        <p className="text-lg mb-8">Don&apos;t be shy! Hit me up! 👇</p>
+        <h2 className="text-3xl font-semibold mb-6 text-pblue">Contact Me</h2>
+        <p className="text-info mb-5">Don&apos;t be shy! Hit me up! 👇</p>
 
         <div className="flex flex-col md:flex-row justify-between md:items-center gap-8">
           <div className="flex items-center mb-4 md:mb-0">
@@ -20,7 +19,6 @@ const ContactPage = ({id}) => {
             </div>
             <div>
               <p className="text-lg font-semibold">Mumbai, India</p>
-             
             </div>
           </div>
           <div className="flex items-center">

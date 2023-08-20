@@ -17,13 +17,13 @@ const App = () => {
       <section className="xl:padding-l wide:padding-r padding-b padding">
         <Hero id="hero" />
       </section>
-      <section className="bg-pale-blue padding">
+      <section className="bg-neutral-50 padding">
         <Skills id="skills" />
       </section>
       <section className="padding">
         <Aboutme id="aboutme" />
       </section>
-      <section className="bg-pale-blue padding">
+      <section className="bg-neutral-50 padding">
         <Portfolio id="project" />
       </section>
       <section className="padding-x py-10">

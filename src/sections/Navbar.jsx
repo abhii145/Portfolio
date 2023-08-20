@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 import { FaBars } from "react-icons/fa";
+import headerLogo from "../assets/icon/headerLogo.svg";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center">
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Abhishek
+           <img src={headerLogo} alt="headerLogo" className="w-10 h-10" />
             </span>
           </a>
           <button
@@ -35,7 +36,7 @@ const Navbar = () => {
                 <Link
                   to="hero"
                   smooth={true}
-                  duration={500}
+                  duration={300}
                   className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 hover-pointer"
                   activeClass="active"
                 >
@@ -46,7 +47,7 @@ const Navbar = () => {
                 <Link
                   to="aboutme"
                   smooth={true}
-                  duration={500}
+                  duration={300}
                   className="hover-pointer block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   activeClass="active"
                 >
@@ -57,7 +58,7 @@ const Navbar = () => {
                 <Link
                   to="project"
                   smooth={true}
-                  duration={500}
+                  duration={300}
                   className="hover-pointer block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   activeClass="active"
                 >
@@ -68,7 +69,7 @@ const Navbar = () => {
                 <Link
                   to="contact"
                   smooth={true}
-                  duration={500}
+                  duration={300}
                   className="hover-pointer block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   activeClass="active"
                 >

@@ -34,7 +34,7 @@ const projects = [
     demoLink: "https://threads-abhii145.vercel.app/",
   },
   {
-    title: "Project 2",
+    title: "Threads-clone",
     image: meImage,
     description:
       "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
@@ -46,11 +46,11 @@ const projects = [
       "Redux",
       "MongoDB",
     ],
-    githubLink: "https://github.com/your-username/project2",
-    demoLink: "https://project2-demo.com",
+    githubLink: "https://github.com/abhii145/threads",
+    demoLink: "https://threads-abhii145.vercel.app/",
   },
   {
-    title: "Project 3",
+    title: "Threads-clone",
     image: meImage,
     description:
       "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
@@ -62,8 +62,8 @@ const projects = [
       "Redux",
       "MongoDB",
     ],
-    githubLink: "https://github.com/your-username/project3",
-    demoLink: "https://project3-demo.com",
+    githubLink: "https://github.com/abhii145/threads",
+    demoLink: "https://threads-abhii145.vercel.app/",
   },
 ];
 
@@ -94,7 +94,7 @@ const Portfolio = ({ id }) => {
   return (
     <div id={id}>
       <div className="container mx-auto">
-        <h2 className="text-2xl font-semibold mb-6 text-pblue">Project</h2>
+        <h2 className="text-3xl font-semibold mb-6 text-pblue">Project</h2>
         <Slider {...settings}>
           {projects.map((project, index) => (
             <div key={index} className="p-6">
@@ -107,14 +107,18 @@ const Portfolio = ({ id }) => {
                   />
                 </div>
                 <div className="w-full md:w-1/2 text-left">
-                  <h2 className="text-xl font-semibold mb-2">
+                  <h2 className="text-xl font-semibold mb-2 text-slate-600">
                     {project.title}
                   </h2>
-                  <p className="text-lg mb-4">{project.description}</p>
+                  <p className="text-lg mb-4 info-text">
+                    {project.description}
+                  </p>
                   <div className="flex mb-4">
                     <div className="mr-2">
                       <div className="flex items-center mb-4">
-                        <strong className="mr-2">Technology:</strong>
+                        <strong className="mr-2 text-coral-red">
+                          Technology:
+                        </strong>
                         {project.technology.map((tech, index) => (
                           <img
                             key={index}
@@ -131,7 +135,7 @@ const Portfolio = ({ id }) => {
                       href={project.githubLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-300"
+                      className="flex items-center px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-colors duration-300"
                     >
                       <span className="mr-2">Code</span>
                       <img
@@ -144,7 +148,7 @@ const Portfolio = ({ id }) => {
                       href={project.demoLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition-colors duration-300 ml-2"
+                      className="flex items-center px-4 py-2 bg-green-500 text-white rounded-xl hover:bg-green-700 transition-colors duration-300 ml-2"
                     >
                       <span className="mr-2">Live demo</span>
                       <img
