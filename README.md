@@ -1,8 +1,40 @@
-# React + Vite
+![Alt text](image.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Personal Portfolio
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio! This repository showcases my projects, skills, and experiences. Feel free to explore and get to know more about me.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [About](#about)
+- [Projects](#projects)
+- [Skills](#skills)
+- [Contact](#contact)
+
+## About
+
+I'm Abhishek Yadav, a Frontend Developer with a passion for Web development. This portfolio highlights my journey, projects, and skills in the field of Web development. Through my work, I aim to [Your Mission or Objective].
+
+## Projects
+
+### Project 1: Threads-clone
+
+- Description: "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
+- Technologies Used: "React",
+  "Nextjs",
+  "TypeScript",
+  "Tailwind",
+  "Redux",
+  "MongoDB",
+- Demo: "https://threads-abhii145.vercel.app/"
+
+- Tech Skills: HTML5 | CSS3 | Bootstrap | JavaScript | TypeScript | React.js | Next.js | Redux | MongoDB | Git |
+
+## Contact
+
+Feel free to reach out to me:
+
+- Email: abhiy145@gmail.com
+- LinkedIn: https://www.linkedin.com/in/abhiy145/
+
+Thank you for visiting my portfolio!
