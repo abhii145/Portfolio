@@ -14,34 +14,34 @@ const Aboutme = ({ id }) => {
             />
           </div>
           <div className="w-full md:w-1/2 text-left">
-            <p className="lg:max-w-lg info-text">
+            <div className="lg:max-w-lg info-text">
               👋 Hey there! I&apos;m Abhishek Yadav, a passionate frontend
               developer with four years of hands-on experience in crafting
               captivating web experiences.
-              <p className="mt-1 lg:max-w-lg info-text">
+              <div className="mt-1 lg:max-w-lg info-text">
                 🚀 My journey began with HTML and CSS, and over the years,
                 I&apos;ve honed my skills in JavaScript and TypeScript, using
                 them to bring ideas to life and create dynamic user interfaces.
-              </p>
-              <p className="mt-1 lg:max-w-lg info-text">
+              </div>
+              <div className="mt-1 lg:max-w-lg info-text">
                 ⚛️ I thrive in the world of React.js and Next.js, utilizing
                 these powerful tools to build responsive, performant, and
                 user-friendly applications that leave a lasting impression.
-              </p>
-              <p className="mt-1 lg:max-w-lg info-text">
+              </div>
+              <div className="mt-1 lg:max-w-lg info-text">
                 💡 Beyond coding, I&apos;m well-versed in MongoDB for handling
                 data and Git for seamless collaboration within development
                 teams.{" "}
-              </p>
-              <p className="mt-1 lg:max-w-lg info-text">
+              </div>
+              <div className="mt-1 lg:max-w-lg info-text">
                 🌟 I&apos;m all about turning design into reality and enhancing
                 user interactions.
                 <span className="text-coral-red">
                   {" "}
                   Let&apos;s connect and create something amazing together!
                 </span>
-              </p>
-            </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

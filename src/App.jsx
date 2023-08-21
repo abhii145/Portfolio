@@ -9,6 +9,7 @@ import {
 } from "./sections";
 import ScrollToTop from "react-scroll-to-top";
 
+
 const App = () => {
   return (
     <main className="relative">
