@@ -1,13 +1,13 @@
 import meImage from "../assets/images/me.jpg";
 import { BiSolidDownload } from "react-icons/bi";
-import resume from "../assets/Frontend_developer.pdf";
 
 const Hero = ({ id }) => {
+  const resumeLink =
+    "https://drive.google.com/file/d/1XGZZ1CBzFVLgAX_eAWvV4yuPEGObHOIl/view?usp=drive_link";
   const handleDownloadResume = () => {
-    const resumeFilePath = resume;
     const link = document.createElement("a");
-    link.href = resumeFilePath;
-    link.download = "reactjs_developer.pdf";
+    link.href = resumeLink;
+    link.download = "Frontend_developer.pdf";
     link.click();
   };
   return (
