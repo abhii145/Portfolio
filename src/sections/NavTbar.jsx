@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import headerLogo from "../assets/icon/headerLogo.svg";
 
-const NavBar = () => {
+const NavTbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -64,4 +64,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default NavTbar;

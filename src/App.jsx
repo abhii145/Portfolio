@@ -3,7 +3,7 @@ import {
   Contact,
   Footer,
   Hero,
-  NavBar,
+  NavTbar,
   Portfolio,
   Skills,
 } from "./sections";
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <main className="relative">
       <ScrollToTop smooth />
-      <NavBar id="home"/>
+     <NavTbar />
       <section className="xl:padding-l wide:padding-r padding-b padding">
         <Hero id="hero" />
       </section>
