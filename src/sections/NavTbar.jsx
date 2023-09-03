@@ -30,6 +30,9 @@ const NavTbar = () => {
           <a href="#aboutme" className="text-gray-700 pr-4 pl-3 py-2 text-2xl">
             About me
           </a>
+          <a href="#experience" className="text-gray-700 pr-4 pl-3 py-2 text-2xl">
+            Experience
+          </a>
           <a href="#project" className="text-gray-700 pr-4 pl-3 py-2 text-2xl">
             Project
           </a>
@@ -52,6 +55,9 @@ const NavTbar = () => {
             className="block mt-2 pr-4 pl-3 py-2 text-gray-700 border-b border-gray-100 text-xl"
           >
             About me
+          </a>
+          <a href="#experience" className="block mt-2 pr-4 pl-3 py-2 text-gray-700 border-b border-gray-100 text-xl">
+            Experience
           </a>
           <a
             href="#project"

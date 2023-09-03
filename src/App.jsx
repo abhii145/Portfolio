@@ -6,17 +6,15 @@ import {
   NavTbar,
   Portfolio,
   Skills,
-  ExperienceTimeline
+  ExperienceTimeline,
 } from "./sections";
 import ScrollToTop from "react-scroll-to-top";
 
-
 const App = () => {
-
   return (
     <main className="relative">
       <ScrollToTop smooth />
-     <NavTbar />
+      <NavTbar />
       <section className="xl:padding-l wide:padding-r padding-b padding">
         <Hero id="hero" />
       </section>
@@ -27,7 +25,7 @@ const App = () => {
         <Aboutme id="aboutme" />
       </section>
       <section className="bg-neutral-50 padding">
-  <ExperienceTimeline/>
+        <ExperienceTimeline id="experience" />
       </section>
       <section className=" padding">
         <Portfolio id="project" />

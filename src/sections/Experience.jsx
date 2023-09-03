@@ -5,9 +5,9 @@ import { experiences } from '../components/constant';
 
 
 
-const ExperienceTimeline = () => {
+const ExperienceTimeline = ({id}) => {
   return (
-    <div className="container mx-auto">
+    <div id={id} className="container mx-auto">
       <h2 className="text-3xl font-semibold mb-6 text-pblue">
          Work Experience
         </h2>
