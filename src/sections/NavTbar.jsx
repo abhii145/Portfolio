@@ -12,7 +12,14 @@ const NavTbar = () => {
   return (
     <nav className=" p-4">
       <div className="flex items-center justify-between">
-        <img alt="Flowbite Logo" src={headerLogo} className="h-12" />
+        <img
+          alt="Flowbite Logo"
+          src={headerLogo}
+          className="h-12"
+          onClick={() => {
+            window.location.href = "/";
+          }}
+        />
         <button className="text-gray-700 md:hidden" onClick={toggleMenu}>
           {isMenuOpen ? <FaTimes /> : <FaBars />}
         </button>

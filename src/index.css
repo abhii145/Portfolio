@@ -150,3 +150,22 @@
 a:hover {
   color: rgb(0, 0, 0);
 }
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.vertical-timeline::before {
+  /* this is the vertical line */
+
+  background: black !important;
+}
+
+.empty {
+  height: 600px;
+  border: 1px solid red;
+}
+
+/* Add this CSS to your stylesheet or a separate CSS file */
+/* Add this CSS to your stylesheet or a separate CSS file */
