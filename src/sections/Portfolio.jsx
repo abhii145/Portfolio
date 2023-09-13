@@ -1,7 +1,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import meImage from "../assets/images/threads.png";
+import threads from "../assets/images/threads.png";
+import ecom from "../assets/images/ecom.png";
 
 import htmlIcon from "../assets/icon/html.svg";
 import cssIcon from "../assets/icon/css.svg";
@@ -15,11 +16,12 @@ import mongoDBIcon from "../assets/icon/mongoDB.svg";
 import gitIcon from "../assets/icon/git.svg";
 import wwwIcon from "../assets/icon/www.svg";
 import githubIcon from "../assets/icon/github.svg";
+import clerkIcon from "../assets/icon/clerk.svg";
 
 const projects = [
   {
     title: "Threads-clone",
-    image: meImage,
+    image: threads,
     description:
       "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
     technology: [
@@ -29,41 +31,19 @@ const projects = [
       "Tailwind",
       "Redux",
       "MongoDB",
+      "Clerk",
     ],
     githubLink: "https://github.com/abhii145/threads",
     demoLink: "https://threads-abhii145.vercel.app/",
   },
   {
-    title: "Threads-clone",
-    image: meImage,
+    title: "Ecommerce",
+    image: ecom,
     description:
-      "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
-    technology: [
-      "React",
-      "Nextjs",
-      "TypeScript",
-      "Tailwind",
-      "Redux",
-      "MongoDB",
-    ],
-    githubLink: "https://github.com/abhii145/threads",
-    demoLink: "https://threads-abhii145.vercel.app/",
-  },
-  {
-    title: "Threads-clone",
-    image: meImage,
-    description:
-      "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
-    technology: [
-      "React",
-      "Nextjs",
-      "TypeScript",
-      "Tailwind",
-      "Redux",
-      "MongoDB",
-    ],
-    githubLink: "https://github.com/abhii145/threads",
-    demoLink: "https://threads-abhii145.vercel.app/",
+      "This project is a web-based ecommerce application that allows users to browse, search for, and purchase products online. Users can create accounts, add items to their shopping cart, and securely checkout using Clerk for authentication.",
+    technology: ["React", "JavaScript", "Tailwind", "Redux", "Clerk"],
+    githubLink: "https://github.com/abhii145/Ecommerce",
+    demoLink: "https://bazar-zeta.vercel.app/",
   },
 ];
 
@@ -78,6 +58,7 @@ const technologyIcons = {
   Redux: reduxIcon,
   MongoDB: mongoDBIcon,
   Git: gitIcon,
+  Clerk: clerkIcon,
 };
 
 const Portfolio = ({ id }) => {
@@ -88,7 +69,7 @@ const Portfolio = ({ id }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
   };
 
   return (
@@ -101,7 +82,7 @@ const Portfolio = ({ id }) => {
               <div className="flex flex-col md:flex-row md:items-center gap-8">
                 <div className="w-full md:w-1/2 mb-4 md:mb-0">
                   <img
-                    src={meImage}
+                    src={project.image}
                     alt={project.title}
                     className="w-full rounded-lg shadow-lg"
                   />
