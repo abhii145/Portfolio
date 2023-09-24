@@ -25,7 +25,6 @@ const projects = [
     description:
       "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
     technology: [
-      "React",
       "Nextjs",
       "TypeScript",
       "Tailwind",
