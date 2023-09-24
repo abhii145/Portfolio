@@ -48,9 +48,9 @@ export const education = [
     date: "June 2016 - May 2019",
     points: [
       "Board: Maharashtra State Board of Secondary & Higher Secondary Education",
+     "Specialization: Information Technology",
       "CGPA: 7.5/10",
-      "Specialization: Information Technology",
-    ],
+      ],
   },
 
   {
@@ -61,8 +61,9 @@ export const education = [
     date: "June 2014 - May 2015",
     points: [
       "Board: Maharashtra State Board of Secondary & Higher Secondary Education",
+       "Stream: Science",
       "Percentage: 63%",
-      "Stream: Science",
+     
     ],
   },
 
