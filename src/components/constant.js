@@ -47,7 +47,7 @@ export const education = [
     iconBg: "#E6DEDD",
     date: "June 2016 - May 2019",
     points: [
-      "Board: Maharashtra State Board of Secondary & Higher Secondary Education",
+      "University: University of Mumbai ",
      "Specialization: Information Technology",
       "CGPA: 7.5/10",
       ],
