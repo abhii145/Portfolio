@@ -2,8 +2,7 @@ import meImage from "../assets/images/me.jpg";
 import { BiSolidDownload } from "react-icons/bi";
 
 const Hero = ({ id }) => {
-  const resumeLink =
-    "https://drive.google.com/file/d/1XGZZ1CBzFVLgAX_eAWvV4yuPEGObHOIl/view?usp=drive_link";
+  const resumeLink = "./Frontend_developer.pdf";
   const handleDownloadResume = () => {
     const link = document.createElement("a");
     link.href = resumeLink;

@@ -33,7 +33,7 @@ const Skills = () => {
           {icons.map((icon) => (
             <div
               key={icon.name}
-              className="w-28 h-28 flex items-center justify-center bg-white rounded-full shadow-lg transition-shadow duration-300 hover:shadow-xl hover:bg-pgreen"
+              className="w-28 h-28 flex items-center justify-center bg-white rounded-full shadow-lg transition-shadow duration-300 hover:shadow-xl hover:bg-pgreen hover:scale-105 "
             >
               <img src={icon.src} alt={icon.name} className="w-20 h-20" />
             </div>
