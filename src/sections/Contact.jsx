@@ -7,7 +7,7 @@ const ContactPage = ({ id }) => {
       <div className="container mx-auto">
         <h2 className="text-3xl font-semibold mb-6 text-pblue">Contact Me</h2>
         <p>
-          Don&apos;t be shy! Hit me up! <span>👇</span>
+          Don&apos;t be shy! Hit me up! <span className="text-2xl">👇</span>
         </p>
 
         <div className="flex flex-col md:flex-row justify-between md:items-center gap-8">

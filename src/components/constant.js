@@ -48,9 +48,9 @@ export const education = [
     date: "June 2016 - May 2019",
     points: [
       "University: University of Mumbai ",
-     "Specialization: Information Technology",
+      "Specialization: Information Technology",
       "CGPA: 7.5/10",
-      ],
+    ],
   },
 
   {
@@ -61,9 +61,8 @@ export const education = [
     date: "June 2014 - May 2015",
     points: [
       "Board: Maharashtra State Board of Secondary & Higher Secondary Education",
-       "Stream: Science",
+      "Stream: Science",
       "Percentage: 63%",
-     
     ],
   },
 
@@ -72,7 +71,7 @@ export const education = [
     company_name: "Class 10th (Secondary)",
     icon: srmv,
     iconBg: "#d1d5db",
-    date: "June 2012 - March 2023",
+    date: "June 2012 - March 2013",
     points: [
       "Board: Maharashtra State Board of Secondary & Higher Secondary Education",
       "Percentage: 83%",

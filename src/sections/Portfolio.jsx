@@ -75,6 +75,7 @@ const Portfolio = ({ id }) => {
     <div id={id}>
       <div className="container mx-auto">
         <h2 className="text-3xl font-semibold mb-6 text-pblue">Project</h2>
+       <h2 className="text-xl  mb-6 text-blue">Each project is a unique piece of development 🧩</h2> 
         <Slider {...settings}>
           {projects.map((project, index) => (
             <div key={index} className="p-6">
@@ -90,9 +91,10 @@ const Portfolio = ({ id }) => {
                   <h2 className="text-xl font-semibold mb-2 text-slate-600">
                     {project.title}
                   </h2>
-                  <p className="text-lg mb-4 info-text">
-                    {project.description}
-                  </p>
+                 <p className="text-lg mb-4 info-text font-medium text-gray-500">
+  {project.description}
+</p>
+
                   <div className="flex mb-4">
                     <div className="mr-2">
                       <div className="flex items-center mb-4">
