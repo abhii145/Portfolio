@@ -42,7 +42,7 @@ export const experiences = [
 export const education = [
   {
     title: "Narsee Monjee College",
-    company_name: "B.sc. Information Technology",
+    company_name: "BS, Information Technology",
     icon: nm,
     iconBg: "#E6DEDD",
     date: "June 2016 - May 2019",
