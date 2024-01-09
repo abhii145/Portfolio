@@ -6,11 +6,23 @@ import tp from "../assets/icon/tp.svg";
 
 export const experiences = [
   {
+    title: "Senior Software Engineer",
+    company_name: "EY",
+    icon: here,
+    iconBg: "#d1d5db",
+    date: "Dec 2023 - Present",
+    points: [
+      "Developed and maintained responsive web applications using React.js and Redux for efficient state management.",
+      "Used ReactJS, Redux, and Thunk to create robust and performant frontend applications that meet business and user needs.",
+      "Collaborated with cross-functional teams, including designers and backend developers, to deliver high-quality products.",
+    ],
+  },
+  {
     title: "Software Engineer II",
     company_name: "Here Technologies",
     icon: here,
     iconBg: "#d1d5db",
-    date: "Feb 2023 - Present",
+    date: "Feb 2023 - Dec 2023",
     points: [
       "Developed and maintained responsive web applications using React.js and Redux for efficient state management.",
       "Used ReactJS, Redux, and Thunk to create robust and performant frontend applications that meet business and user needs.",
