@@ -3,12 +3,13 @@ import Lti from "../assets/icon/Lti.svg";
 import nm from "../assets/icon/nm.svg";
 import srmv from "../assets/icon/srmv.svg";
 import tp from "../assets/icon/tp.svg";
+import ey from "../assets/icon/EY.svg";
 
 export const experiences = [
   {
     title: "Senior Software Engineer",
     company_name: "EY",
-    icon: here,
+    icon: ey,
     iconBg: "#d1d5db",
     date: "Dec 2023 - Present",
     points: [
