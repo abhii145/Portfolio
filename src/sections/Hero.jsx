@@ -36,6 +36,7 @@ const Hero = ({ id }) => {
 
       <div className="flex-1 flex justify-center items-center hero-image">
         <img
+            loading="lazy"
           src={meImage}
           alt="product detail"
           width={570}
