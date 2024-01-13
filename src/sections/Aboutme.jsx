@@ -8,6 +8,7 @@ const Aboutme = ({ id }) => {
         <div className="flex flex-col md:flex-row md:items-center gap-8 mb-6">
           <div className="w-full md:w-1/2 mb-4 md:mb-0">
             <img
+            loading="lazy"
               src={meImage}
               alt="Laptop"
               className="w-full rounded-lg shadow-lg"

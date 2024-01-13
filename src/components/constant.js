@@ -10,7 +10,7 @@ export const experiences = [
     title: "Senior Software Engineer",
     company_name: "EY",
     icon: ey,
-    iconBg: "#d1d5db",
+    iconBg: "#D0D0D0",
     date: "Dec 2023 - Present",
     points: [
       "Developed and maintained responsive web applications using React.js and Redux for efficient state management.",
