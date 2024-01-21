@@ -13,7 +13,7 @@ export const experiences = [
     iconBg: "#D0D0D0",
     date: "Dec 2023 - Present",
     points: [
-      "Spearheaded the development of Banking Domain web applications using React.js and Redux, ensuring efficient state management.",
+      "Spearheaded the development of Banking Domain web application using React.js and Redux, ensuring efficient state management.",
       "Collaborated closely with stakeholders to understand project requirements, contributing to successful project delivery.",
       "Implemented responsive design principles, enhancing the user experience on various devices and screen sizes.",
       "Conducted regular code reviews to maintain high code quality and identify opportunities for improvement.",
@@ -26,7 +26,7 @@ export const experiences = [
     iconBg: "#d1d5db",
     date: "Feb 2023 - Dec 2023",
     points: [
-      "Developed and Enhanced map-based web applications using React.js and Redux, resulting in a 40% increase in customer engagement through UI redesigns.",
+      "Developed and Enhanced map-based web application using React.js and Redux, resulting in a 40% increase in customer engagement through UI redesigns.",
       "Conducted comprehensive end-to-end testing, identifying and resolving bugs to ensure a seamless user experience.",
       "Actively participated in Agile development processes, providing valuable input and adapting to a fast-paced environment.",
       "Collaborated with UX/UI designers to implement visually appealing and intuitive interfaces.",
@@ -40,7 +40,7 @@ export const experiences = [
     iconBg: "#E6DEDD",
     date: "Oct 2019 - Jan 2023",
     points: [
-      "Architected front-end functionality for e-commerce sites, integrating dynamic payment gateways and boosting checkout conversion rates by 25%.",
+      "Architected front-end functionality for Ecommerce site, integrating dynamic payment gateways and boosting checkout conversion rates by 25%.",
       "Implemented TypeScript for type checking, contributing to more robust and maintainable code.",
       "Developed reusable components and libraries, streamlining the frontend development process.",
       "Improved the performance and load times of web applications through optimization techniques.",

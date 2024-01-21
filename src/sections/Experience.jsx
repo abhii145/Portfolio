@@ -6,8 +6,18 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiences, education } from "../components/constant";
 
+const highlightKeywords = (text, keywords) => {
+  const regex = new RegExp(`\\b(${keywords.join("|")})\\b`, "gi");
+  return text.replace(
+    regex,
+    (match) => `<span style="text-decoration: underline #20a7db">${match}</span>`
+  );
+};
+
 const ExperienceTimeline = ({ id }) => {
-  const [activeTab, setActiveTab] = useState("work"); // Default to 'work' tab
+  const [activeTab, setActiveTab] = useState("work");
+
+  const keywordsToHighlight = ["Banking Domain", "Ecommerce site", "map-based"];
 
   return (
     <div id={id} className="container mx-auto">
@@ -70,9 +80,13 @@ const ExperienceTimeline = ({ id }) => {
 
               <ul className="list-disc pl-5">
                 {experience.points.map((point, idx) => (
-                  <li key={idx} className="info-text">
-                    {point}
-                  </li>
+                  <li
+                    key={idx}
+                    className="info-text"
+                    dangerouslySetInnerHTML={{
+                      __html: highlightKeywords(point, keywordsToHighlight),
+                    }}
+                  />
                 ))}
               </ul>
             </VerticalTimelineElement>
@@ -121,9 +135,13 @@ const ExperienceTimeline = ({ id }) => {
 
               <ul className="list-disc pl-5">
                 {experience.points.map((point, idx) => (
-                  <li key={idx} className="info-text">
-                    {point}
-                  </li>
+                  <li
+                    key={idx}
+                    className="info-text"
+                    dangerouslySetInnerHTML={{
+                      __html: highlightKeywords(point, keywordsToHighlight),
+                    }}
+                  />
                 ))}
               </ul>
             </VerticalTimelineElement>
