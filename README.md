@@ -13,7 +13,7 @@ Welcome to my personal portfolio! This repository showcases my projects, skills,
 
 ## About
 
-I'm Abhishek Yadav, a Frontend Developer with a passion for Web development. This portfolio highlights my journey, projects, and skills in the field of Web development. Through my work, I aim to [Your Mission or Objective].
+I'm Abhishek Yadav, a Full Stack Developer with a passion for Web development. This portfolio highlights my journey, projects, and skills in the field of Web development. Through my work, I aim to [Your Mission or Objective].
 
 ## Projects
 

@@ -4,6 +4,7 @@ import tailwind from "../assets/icon/tailwind.svg";
 import js from "../assets/icon/js.svg";
 import ts from "../assets/icon/ts.svg";
 import react from "../assets/icon/react.svg";
+import node from "../assets/icon/node.svg";
 import nextjs from "../assets/icon/nextjs.svg";
 import redux from "../assets/icon/redux.svg";
 import mongoDB from "../assets/icon/mongoDB.svg";
@@ -18,6 +19,7 @@ const Skills = () => {
     { name: "JavaScript", src: js },
     { name: "TypeScript", src: ts },
     { name: "React", src: react },
+    { name: "Node", src: node },
     { name: "Next.js", src: nextjs },
     { name: "Redux", src: redux },
     { name: "MongoDB", src: mongoDB },

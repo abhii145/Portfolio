@@ -2,11 +2,11 @@ import meImage from "../assets/images/me.jpg";
 import { BiSolidDownload } from "react-icons/bi";
 
 const Hero = ({ id }) => {
-  const resumeLink = "./Frontend_developer.pdf";
+  const resumeLink = "./Full_Stack_developer.pdf";
   const handleDownloadResume = () => {
     const link = document.createElement("a");
     link.href = resumeLink;
-    link.download = "Frontend_developer.pdf";
+    link.download = "Full_Stack_developer.pdf";
     link.click();
   };
   return (
@@ -16,12 +16,14 @@ const Hero = ({ id }) => {
     >
       <div className="flex flex-1 flex-col">
         <h2 className="font-poppins capitalize text-4xl lg:max-w-lg font-bold text-gray-700">
-          Frontend Developer
+          Full Stack Developer
         </h2>
         <p className="mt-4 lg:max-w-lg info-text text-lg mb-4 info-text font-medium text-gray-500">
-          Hi, I&apos;m Abhishek Yadav. A passionate Front-end Developer with 4
-          years of professional experience in Web Designing and User Interface
-          Development. Proficiency in code optimization to improve performance.
+          Hi, I&apos;m Abhishek Yadav. A passionate Full Stack Developer with 4+
+          years of professional experience in building robust Full Stack web
+          applications using the <b>MERN stack & Next.js</b>. I specialize in
+          creating intuitive and visually engaging web applications, with a
+          strong emphasis on optimizing code for enhanced performance
         </p>
 
         <div className="mt-11">
@@ -36,7 +38,7 @@ const Hero = ({ id }) => {
 
       <div className="flex-1 flex justify-center items-center hero-image">
         <img
-            loading="lazy"
+          loading="lazy"
           src={meImage}
           alt="product detail"
           width={570}
