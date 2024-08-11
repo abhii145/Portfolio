@@ -2,9 +2,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import threads from "../assets/images/threads.png";
+import festifind from "../assets/images/festifind.png";
 import ecom from "../assets/images/ecom.png";
-
 import htmlIcon from "../assets/icon/html.svg";
+import awsS3Bucket from "../assets/icon/awsS3.svg";
 import cssIcon from "../assets/icon/css.svg";
 import tailwindIcon from "../assets/icon/tailwind.svg";
 import jsIcon from "../assets/icon/js.svg";
@@ -19,6 +20,23 @@ import githubIcon from "../assets/icon/github.svg";
 import clerkIcon from "../assets/icon/clerk.svg";
 
 const projects = [
+  {
+    title: "FestiFind",
+    image: festifind,
+    description:
+      "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
+    technology: [
+      "Nextjs",
+      "TypeScript",
+      "Tailwind",
+      "Redux",
+      "MongoDB",
+      "awsS3Bucket",
+    ],
+    githubLink: "https://github.com/abhii145/threads",
+    demoLink: "https://threads-abhii145.vercel.app/",
+  },
+
   {
     title: "Threads-clone",
     image: threads,
@@ -58,6 +76,7 @@ const technologyIcons = {
   MongoDB: mongoDBIcon,
   Git: gitIcon,
   Clerk: clerkIcon,
+  awsS3Bucket: awsS3Bucket,
 };
 
 const Portfolio = ({ id }) => {
