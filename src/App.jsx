@@ -3,18 +3,18 @@ import {
   Contact,
   Footer,
   Hero,
-  NavTbar,
-  Portfolio,
+  Navbar,
+  Project,
   Skills,
   ExperienceTimeline,
-} from "./sections";
-import ScrollToTop from "react-scroll-to-top";
+} from "./components"
+import ScrollToTop from "react-scroll-to-top"
 
 const App = () => {
   return (
     <main className="relative">
       <ScrollToTop smooth />
-      <NavTbar />
+      <Navbar />
       <section className="xl:padding-l wide:padding-r padding-b padding">
         <Hero id="hero" />
       </section>
@@ -28,7 +28,7 @@ const App = () => {
         <ExperienceTimeline id="experience" />
       </section>
       <section className=" padding">
-        <Portfolio id="project" />
+        <Project id="project" />
       </section>
       <section className=" bg-neutral-50 padding-x py-10">
         <Contact id="contact" />
@@ -37,7 +37,7 @@ const App = () => {
         <Footer />
       </section>
     </main>
-  );
-};
+  )
+}
 
-export default App;
+export default App

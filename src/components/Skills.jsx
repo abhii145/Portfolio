@@ -1,15 +1,15 @@
-import html from "../assets/icon/html.svg";
-import css from "../assets/icon/css.svg";
-import tailwind from "../assets/icon/tailwind.svg";
-import js from "../assets/icon/js.svg";
-import ts from "../assets/icon/ts.svg";
-import react from "../assets/icon/react.svg";
-import node from "../assets/icon/node.svg";
-import nextjs from "../assets/icon/nextjs.svg";
-import redux from "../assets/icon/redux.svg";
-import mongoDB from "../assets/icon/mongoDB.svg";
-import git from "../assets/icon/git.svg";
-import docker from "../assets/icon/docker.svg";
+import html from "../assets/icon/html.svg"
+import css from "../assets/icon/css.svg"
+import tailwind from "../assets/icon/tailwind.svg"
+import js from "../assets/icon/js.svg"
+import ts from "../assets/icon/ts.svg"
+import react from "../assets/icon/react.svg"
+import node from "../assets/icon/node.svg"
+import nextjs from "../assets/icon/nextjs.svg"
+import redux from "../assets/icon/redux.svg"
+import mongoDB from "../assets/icon/mongoDB.svg"
+import git from "../assets/icon/git.svg"
+import docker from "../assets/icon/docker.svg"
 
 const Skills = () => {
   const icons = [
@@ -25,7 +25,7 @@ const Skills = () => {
     { name: "MongoDB", src: mongoDB },
     { name: "Docker", src: docker },
     { name: "Git", src: git },
-  ];
+  ]
 
   return (
     <div className="py-1">
@@ -48,7 +48,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

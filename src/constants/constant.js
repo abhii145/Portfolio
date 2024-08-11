@@ -1,9 +1,9 @@
-import here from "../assets/icon/here.svg";
-import Lti from "../assets/icon/Lti.svg";
-import nm from "../assets/icon/nm.svg";
-import srmv from "../assets/icon/srmv.svg";
-import tp from "../assets/icon/tp.svg";
-import ey from "../assets/icon/EY.svg";
+import here from "../assets/icon/here.svg"
+import Lti from "../assets/icon/Lti.svg"
+import nm from "../assets/icon/nm.svg"
+import srmv from "../assets/icon/srmv.svg"
+import tp from "../assets/icon/tp.svg"
+import ey from "../assets/icon/EY.svg"
 
 export const experiences = [
   {
@@ -13,10 +13,11 @@ export const experiences = [
     iconBg: "#D0D0D0",
     date: "Dec 2023 - Present",
     points: [
-      "Spearheaded the development of Banking Domain web application using React.js and Redux, ensuring efficient state management.",
-      "Collaborated closely with stakeholders to understand project requirements, contributing to successful project delivery.",
-      "Implemented responsive design principles, enhancing the user experience on various devices and screen sizes.",
-      "Conducted regular code reviews to maintain high code quality and identify opportunities for improvement.",
+      "Developed a a Banking Domain web application using React.js and Redux, focusing on efficient state management and responsive design.",
+      "Collaborated with stakeholders to align on project requirements and ensure successful delivery.",
+      "Implemented and integrated a published library from Artifactory, enhancing modularity and functionality.",
+      "Developed reusable components with Storybook and wrote smoke test cases to ensure basic functionality and early issue detection.",
+      "Utilized React Testing Library to write comprehensive test cases, maintaining high code quality and reliability.",
     ],
   },
   {
@@ -47,7 +48,7 @@ export const experiences = [
       "Collaborated with cross-functional teams, including backend developers and QA engineers, to ensure seamless integration of frontend and backend components.",
     ],
   },
-];
+]
 
 export const education = [
   {
@@ -87,4 +88,4 @@ export const education = [
       "Percentage: 83%",
     ],
   },
-];
+]

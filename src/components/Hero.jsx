@@ -1,14 +1,16 @@
-import meImage from "../assets/images/me.jpg";
-import { BiSolidDownload } from "react-icons/bi";
+import meImage from "../assets/images/me.jpg"
+import { BiSolidDownload } from "react-icons/bi"
 
 const Hero = ({ id }) => {
-  const resumeLink = "./Full_Stack_developer.pdf";
+  const resumeLink = "./Full_Stack_developer.pdf"
+
   const handleDownloadResume = () => {
-    const link = document.createElement("a");
-    link.href = resumeLink;
-    link.download = "Full_Stack_developer.pdf";
-    link.click();
-  };
+    const link = document.createElement("a")
+    link.href = resumeLink
+    link.download = "Full_Stack_developer.pdf"
+    link.click()
+  }
+
   return (
     <section
       id={id}
@@ -19,7 +21,7 @@ const Hero = ({ id }) => {
           Full Stack Developer
         </h2>
         <p className="mt-4 lg:max-w-lg info-text text-lg mb-4 info-text font-medium text-gray-500">
-          Hi, I&apos;m Abhishek Yadav. A passionate Full Stack Developer with 4+
+          Hi, I&apos;m Abhishek Yadav. A passionate Full Stack Developer with 5
           years of professional experience in building robust Full Stack web
           applications using the <b>MERN stack & Next.js</b>. I specialize in
           creating intuitive and visually engaging web applications, with a
@@ -38,16 +40,17 @@ const Hero = ({ id }) => {
 
       <div className="flex-1 flex justify-center items-center hero-image">
         <img
-          loading="lazy"
           src={meImage}
-          alt="product detail"
+          alt="Abhishek Yadav"
           width={570}
           height={522}
           className="object-contain"
+          loading="lazy" // Lazy load the image
+          // Consider optimizing this image outside of React
         />
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

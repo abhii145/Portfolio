@@ -1,13 +1,13 @@
-import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import headerLogo from "../assets/icon/headerLogo.svg";
+import { useState } from "react"
+import { FaBars, FaTimes } from "react-icons/fa"
+import headerLogo from "../assets/icon/headerLogo.svg"
 
-const NavTbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+    setIsMenuOpen(!isMenuOpen)
+  }
 
   return (
     <nav className=" p-4">
@@ -17,7 +17,7 @@ const NavTbar = () => {
           src={headerLogo}
           className="h-12"
           onClick={() => {
-            window.location.href = "/";
+            window.location.href = "/"
           }}
         />
         <button className="text-gray-700 md:hidden" onClick={toggleMenu}>
@@ -30,7 +30,10 @@ const NavTbar = () => {
           <a href="#aboutme" className="text-gray-700 pr-4 pl-3 py-2 text-2xl">
             About me
           </a>
-          <a href="#experience" className="text-gray-700 pr-4 pl-3 py-2 text-2xl">
+          <a
+            href="#experience"
+            className="text-gray-700 pr-4 pl-3 py-2 text-2xl"
+          >
             Experience
           </a>
           <a href="#project" className="text-gray-700 pr-4 pl-3 py-2 text-2xl">
@@ -56,7 +59,10 @@ const NavTbar = () => {
           >
             About me
           </a>
-          <a href="#experience" className="block mt-2 pr-4 pl-3 py-2 text-gray-700 border-b border-gray-100 text-xl">
+          <a
+            href="#experience"
+            className="block mt-2 pr-4 pl-3 py-2 text-gray-700 border-b border-gray-100 text-xl"
+          >
             Experience
           </a>
           <a
@@ -74,7 +80,7 @@ const NavTbar = () => {
         </div>
       )}
     </nav>
-  );
-};
+  )
+}
 
-export default NavTbar;
+export default Navbar

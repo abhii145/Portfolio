@@ -1,5 +1,5 @@
-import LocationIcon from "../assets/icon/location.svg";
-import MailIcon from "../assets/icon/mail.svg";
+import LocationIcon from "../assets/icon/location.svg"
+import MailIcon from "../assets/icon/mail.svg"
 
 const ContactPage = ({ id }) => {
   return (
@@ -37,7 +37,7 @@ const ContactPage = ({ id }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ContactPage;
+export default ContactPage

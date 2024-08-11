@@ -1,4 +1,4 @@
-import meImage from "../assets/images/working.gif";
+import meImage from "../assets/images/working.gif"
 
 const Aboutme = ({ id }) => {
   return (
@@ -8,7 +8,7 @@ const Aboutme = ({ id }) => {
         <div className="flex flex-col md:flex-row md:items-center gap-8 mb-6">
           <div className="w-full md:w-1/2 mb-4 md:mb-0">
             <img
-            loading="lazy"
+              loading="lazy"
               src={meImage}
               alt="Laptop"
               className="w-full rounded-lg shadow-lg"
@@ -16,8 +16,8 @@ const Aboutme = ({ id }) => {
           </div>
           <div className="w-full md:w-1/2 text-left">
             <div className="lg:max-w-lg info-text">
-              👋 Hey there! I&apos;m Abhishek Yadav, a passionate Full Stack 
-              Developer with four years of hands-on experience in crafting
+              👋 Hey there! I&apos;m Abhishek Yadav, a passionate Full Stack
+              Developer with 5 years of hands-on experience in crafting
               captivating web experiences.
               <div className="mt-1 lg:max-w-lg info-text">
                 🚀 My journey began with HTML and CSS, and over the years,
@@ -32,13 +32,12 @@ const Aboutme = ({ id }) => {
               <div className="mt-1 lg:max-w-lg info-text">
                 💡 Beyond coding, I&apos;m well-versed in MongoDB for handling
                 data and Git for seamless collaboration within development
-                teams.{" "}
+                teams.
               </div>
               <div className="mt-1 lg:max-w-lg info-text">
                 🌟 I&apos;m all about turning design into reality and enhancing
                 user interactions.
                 <span className="text-coral-red">
-                  {" "}
                   Let&apos;s connect and create something amazing together!
                 </span>
               </div>
@@ -47,7 +46,7 @@ const Aboutme = ({ id }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Aboutme;
+export default Aboutme

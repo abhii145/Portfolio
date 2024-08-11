@@ -1,23 +1,24 @@
-import { useState } from "react";
+import { useState } from "react"
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import { experiences, education } from "../components/constant";
+} from "react-vertical-timeline-component"
+import "react-vertical-timeline-component/style.min.css"
+import { education, experiences } from "../constants/constant"
 
 const highlightKeywords = (text, keywords) => {
-  const regex = new RegExp(`\\b(${keywords.join("|")})\\b`, "gi");
+  const regex = new RegExp(`\\b(${keywords.join("|")})\\b`, "gi")
   return text.replace(
     regex,
-    (match) => `<span style="text-decoration: underline #20a7db">${match}</span>`
-  );
-};
+    (match) =>
+      `<span style="text-decoration: underline #20a7db">${match}</span>`
+  )
+}
 
 const ExperienceTimeline = ({ id }) => {
-  const [activeTab, setActiveTab] = useState("work");
+  const [activeTab, setActiveTab] = useState("work")
 
-  const keywordsToHighlight = ["Banking Domain", "Ecommerce site", "map-based"];
+  const keywordsToHighlight = ["Banking Domain", "Ecommerce site", "map-based"]
 
   return (
     <div id={id} className="container mx-auto">
@@ -149,7 +150,7 @@ const ExperienceTimeline = ({ id }) => {
         </VerticalTimeline>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default ExperienceTimeline;
+export default ExperienceTimeline
