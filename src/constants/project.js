@@ -1,6 +1,6 @@
 import threads from "../assets/images/threads.png"
 import festifind from "../assets/images/festifind.png"
-import ecom from "../assets/images/ecom.png"
+// import ecom from "../assets/images/ecom.png"
 import htmlIcon from "../assets/icon/html.svg"
 import awsS3Bucket from "../assets/icon/awsS3.svg"
 import cssIcon from "../assets/icon/css.svg"
@@ -28,8 +28,8 @@ export const projects = [
       "MongoDB",
       "awsS3Bucket",
     ],
-    githubLink: "https://github.com/abhii145/threads",
-    demoLink: "https://threads-abhii145.vercel.app/",
+    githubLink: "https://github.com/abhii145/festifind",
+    demoLink: "https://festifind-near.vercel.app/",
   },
 
   {
@@ -48,15 +48,15 @@ export const projects = [
     githubLink: "https://github.com/abhii145/threads",
     demoLink: "https://threads-abhii145.vercel.app/",
   },
-  {
-    title: "Ecommerce",
-    image: ecom,
-    description:
-      "This project is a web-based ecommerce application that allows users to browse, search for, and purchase products online. Users can create accounts, add items to their shopping cart, and securely checkout using Clerk for authentication.",
-    technology: ["React", "JavaScript", "Tailwind", "Redux", "Clerk"],
-    githubLink: "https://github.com/abhii145/Ecommerce",
-    demoLink: "https://bazar-zeta.vercel.app/",
-  },
+  // {
+  //   title: "Ecommerce",
+  //   image: ecom,
+  //   description:
+  //     "This project is a web-based ecommerce application that allows users to browse, search for, and purchase products online. Users can create accounts, add items to their shopping cart, and securely checkout using Clerk for authentication.",
+  //   technology: ["React", "JavaScript", "Tailwind", "Redux", "Clerk"],
+  //   githubLink: "https://github.com/abhii145/Ecommerce",
+  //   demoLink: "https://bazar-zeta.vercel.app/",
+  // },
 ]
 
 export const technologyIcons = {

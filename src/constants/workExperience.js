@@ -1,8 +1,5 @@
 import here from "../assets/icon/here.svg"
 import Lti from "../assets/icon/Lti.svg"
-import nm from "../assets/icon/nm.svg"
-import srmv from "../assets/icon/srmv.svg"
-import tp from "../assets/icon/tp.svg"
 import ey from "../assets/icon/EY.svg"
 
 export const experiences = [
@@ -13,11 +10,12 @@ export const experiences = [
     iconBg: "#D0D0D0",
     date: "Dec 2023 - Present",
     points: [
-      "Developed a a Banking Domain web application using React.js and Redux, focusing on efficient state management and responsive design.",
-      "Collaborated with stakeholders to align on project requirements and ensure successful delivery.",
-      "Implemented and integrated a published library from Artifactory, enhancing modularity and functionality.",
-      "Developed reusable components with Storybook and wrote smoke test cases to ensure basic functionality and early issue detection.",
-      "Utilized React Testing Library to write comprehensive test cases, maintaining high code quality and reliability.",
+      "Spearheaded the development of Banking Domain web applications using React.js and Redux, ensuring efficient state management and adhering to Micro UI architecture principles.",
+      "Collaborated closely with stakeholders to understand project requirements and implemented responsive layouts for enhanced user experience across devices.",
+      "Developed and documented reusable UI components in Storybook, streamlining the development process and ensuring consistent design across the application.",
+      "Conducted regular code reviews, incorporating unit testing with Jest and writing test cases using React Testing Library to maintain high code quality and identify optimization opportunities.",
+      "Published a package using JFrog and written smoke tests for Playwright to ensure the basic functionality of web applications.",
+      "Presented technical solutions in client meetings and effectively addressed client concerns.",
     ],
   },
   {
@@ -46,46 +44,6 @@ export const experiences = [
       "Developed reusable components and libraries, streamlining the frontend development process.",
       "Improved the performance and load times of web applications through optimization techniques.",
       "Collaborated with cross-functional teams, including backend developers and QA engineers, to ensure seamless integration of frontend and backend components.",
-    ],
-  },
-]
-
-export const education = [
-  {
-    title: "Narsee Monjee College",
-    company_name: "BS, Information Technology",
-    icon: nm,
-    iconBg: "#E6DEDD",
-    date: "June 2016 - May 2019",
-    points: [
-      "University: University of Mumbai ",
-      "Specialization: Information Technology",
-      "CGPA: 7.5/10",
-    ],
-  },
-
-  {
-    title: "T.P. Bhatia College",
-    company_name: "Class 12th (Senior Secondary)",
-    icon: tp,
-    iconBg: "#E6DEED",
-    date: "June 2014 - May 2015",
-    points: [
-      "Board: Maharashtra State Board of Secondary & Higher Secondary Education",
-      "Stream: Science",
-      "Percentage: 63%",
-    ],
-  },
-
-  {
-    title: "S.R.M.V.",
-    company_name: "Class 10th (Secondary)",
-    icon: srmv,
-    iconBg: "#d1d5db",
-    date: "June 2012 - March 2013",
-    points: [
-      "Board: Maharashtra State Board of Secondary & Higher Secondary Education",
-      "Percentage: 83%",
     ],
   },
 ]
