@@ -1,30 +1,24 @@
-import html from "../assets/icon/html.svg"
-import css from "../assets/icon/css.svg"
-import tailwind from "../assets/icon/tailwind.svg"
-import js from "../assets/icon/js.svg"
-import ts from "../assets/icon/ts.svg"
-import react from "../assets/icon/react.svg"
-import node from "../assets/icon/node.svg"
-import nextjs from "../assets/icon/nextjs.svg"
-import redux from "../assets/icon/redux.svg"
-import mongoDB from "../assets/icon/mongoDB.svg"
-import git from "../assets/icon/git.svg"
-import docker from "../assets/icon/docker.svg"
+import { icons } from "../constants/assets"
+import React from "react"
 
-const Skills = () => {
-  const icons = [
-    { name: "HTML", src: html },
-    { name: "CSS", src: css },
-    { name: "Tailwind CSS", src: tailwind },
-    { name: "JavaScript", src: js },
-    { name: "TypeScript", src: ts },
-    { name: "React", src: react },
-    { name: "Node", src: node },
-    { name: "Next.js", src: nextjs },
-    { name: "Redux", src: redux },
-    { name: "MongoDB", src: mongoDB },
-    { name: "Docker", src: docker },
-    { name: "Git", src: git },
+const Skills = React.memo(function Skills() {
+  const iconsList = [
+    { name: "HTML", src: icons.htmlIcon },
+    { name: "CSS", src: icons.cssIcon },
+    { name: "Tailwind CSS", src: icons.tailwindIcon },
+    { name: "Storybook", src: icons.storybook },
+    { name: "JavaScript", src: icons.jsIcon },
+    { name: "TypeScript", src: icons.tsIcon },
+    { name: "React", src: icons.reactIcon },
+    { name: "Next.js", src: icons.nextjsIcon },
+    { name: "Redux", src: icons.reduxIcon },
+    { name: "React Query", src: icons.reactqueryIcon },
+    { name: "Node", src: icons.node },
+    { name: "MongoDB", src: icons.mongoDBIcon },
+    { name: "Jest", src: icons.jest },
+    { name: "Playwright", src: icons.playwright },
+    { name: "Docker", src: icons.docker },
+    { name: "Git", src: icons.gitIcon },
   ]
 
   return (
@@ -32,7 +26,7 @@ const Skills = () => {
       <div className="container mx-auto ">
         <h2 className="text-3xl font-semibold mb-6 text-pblue">Tech Skills</h2>
         <div className="flex flex-wrap justify-center gap-6">
-          {icons.map((icon) => (
+          {iconsList.map((icon) => (
             <div
               key={icon.name}
               className="w-28 h-28 flex items-center justify-center bg-white rounded-full shadow-lg transition-shadow duration-300 hover:shadow-xl hover:bg-pgreen hover:scale-105 "
@@ -41,6 +35,7 @@ const Skills = () => {
                 loading="lazy"
                 src={icon.src}
                 alt={icon.name}
+                aria-label={icon.name}
                 className="w-20 h-20"
               />
             </div>
@@ -49,6 +44,6 @@ const Skills = () => {
       </div>
     </div>
   )
-}
+})
 
 export default Skills

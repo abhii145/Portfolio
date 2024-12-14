@@ -1,75 +1,54 @@
-import threads from "../assets/images/threads.png"
-import festifind from "../assets/images/festifind.png"
-// import ecom from "../assets/images/ecom.png"
-import htmlIcon from "../assets/icon/html.svg"
-import awsS3Bucket from "../assets/icon/awsS3.svg"
-import cssIcon from "../assets/icon/css.svg"
-import tailwindIcon from "../assets/icon/tailwind.svg"
-import jsIcon from "../assets/icon/js.svg"
-import tsIcon from "../assets/icon/ts.svg"
-import reactIcon from "../assets/icon/react.svg"
-import nextjsIcon from "../assets/icon/nextjs.svg"
-import reduxIcon from "../assets/icon/redux.svg"
-import mongoDBIcon from "../assets/icon/mongoDB.svg"
-import gitIcon from "../assets/icon/git.svg"
-import clerkIcon from "../assets/icon/clerk.svg"
+import { images, icons } from "../constants/assets"
 
 export const projects = [
   {
     title: "FestiFind",
-    image: festifind,
+    image: images.festifind,
     description:
       "Festifind is a modern Full Stack event management platform where admins can manage events and transactions, while users can browse upcoming events, book tickets, and view their booked tickets in their profile section.",
     technology: [
-      "Nextjs",
-      "TypeScript",
-      "Tailwind",
-      "Redux",
-      "MongoDB",
+      "nextjsIcon",
+      "tsIcon",
+      "tailwindIcon",
+      "reduxIcon",
+      "mongoDBIcon",
       "awsS3Bucket",
     ],
     githubLink: "https://github.com/abhii145/festifind",
     demoLink: "https://festifind-near.vercel.app/",
   },
-
   {
     title: "Threads-clone",
-    image: threads,
+    image: images.threads,
     description:
       "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
     technology: [
-      "Nextjs",
-      "TypeScript",
-      "Tailwind",
-      "Redux",
-      "MongoDB",
-      "Clerk",
+      "nextjsIcon",
+      "tsIcon",
+      "tailwindIcon",
+      "reduxIcon",
+      "mongoDBIcon",
+      "clerkIcon",
     ],
     githubLink: "https://github.com/abhii145/threads",
     demoLink: "https://threads-abhii145.vercel.app/",
   },
-  // {
-  //   title: "Ecommerce",
-  //   image: ecom,
-  //   description:
-  //     "This project is a web-based ecommerce application that allows users to browse, search for, and purchase products online. Users can create accounts, add items to their shopping cart, and securely checkout using Clerk for authentication.",
-  //   technology: ["React", "JavaScript", "Tailwind", "Redux", "Clerk"],
-  //   githubLink: "https://github.com/abhii145/Ecommerce",
-  //   demoLink: "https://bazar-zeta.vercel.app/",
-  // },
+  {
+    title: "Ecommerce",
+    image: images.reactquery,
+    description:
+      "A modern e-commerce app built with React, offering product listing with pagination, search, filters, detailed views, cart management, and favorites. Features React Query, Redux Toolkit, and React Router DOM. Achieves 95% test coverage using React Testing Library, Snapshot Testing, and Playwright for end to end testing.",
+    technology: [
+      "reactIcon",
+      "tailwindIcon",
+      "reduxIcon",
+      "reactqueryIcon",
+      "jest",
+      "playwright",
+    ],
+    githubLink: "https://github.com/abhii145/react-query",
+    demoLink: "https://react-query-ecom.vercel.app/",
+  },
 ]
 
-export const technologyIcons = {
-  HTML: htmlIcon,
-  CSS: cssIcon,
-  Tailwind: tailwindIcon,
-  JavaScript: jsIcon,
-  TypeScript: tsIcon,
-  React: reactIcon,
-  Nextjs: nextjsIcon,
-  Redux: reduxIcon,
-  MongoDB: mongoDBIcon,
-  Git: gitIcon,
-  Clerk: clerkIcon,
-  awsS3Bucket: awsS3Bucket,
-}
+export const technologyIcons = icons

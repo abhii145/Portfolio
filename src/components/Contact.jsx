@@ -13,11 +13,12 @@ const ContactPage = ({ id }) => {
         <div className="flex flex-col md:flex-row justify-between md:items-center gap-8">
           <div className="flex items-center">
             <div className="w-12 h-12 p-2">
-              <img src={MailIcon} alt="Mail Icon" className="w-full h-full" />
+              <img src={MailIcon} alt="Mail Icon" aria-label="Mail Icon" className="w-full h-full" />
             </div>
             <a
               href="mailto:abhiy145@gmail.com"
               className="text-lg font-semibold text-blue-500 hover:underline transition-colors duration-300"
+              aria-label="Email Abhishek Yadav"
             >
               abhiy145@gmail.com
             </a>
@@ -27,6 +28,7 @@ const ContactPage = ({ id }) => {
               <img
                 src={LocationIcon}
                 alt="Location Icon"
+                aria-label="Location Icon"
                 className="w-full h-full"
               />
             </div>

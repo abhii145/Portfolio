@@ -15,12 +15,13 @@ const Navbar = () => {
         <img
           alt="Flowbite Logo"
           src={headerLogo}
+          aria-label="Home"
           className="h-12"
           onClick={() => {
             window.location.href = "/"
           }}
         />
-        <button className="text-gray-700 md:hidden" onClick={toggleMenu}>
+        <button className="text-gray-700 md:hidden" onClick={toggleMenu} aria-label="Toggle Menu">
           {isMenuOpen ? <FaTimes /> : <FaBars />}
         </button>
         <div className="hidden md:flex space-x-4">

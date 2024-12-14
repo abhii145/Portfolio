@@ -11,6 +11,7 @@ const Aboutme = ({ id }) => {
               loading="lazy"
               src={meImage}
               alt="Laptop"
+              aria-label="Laptop"
               className="w-full rounded-lg shadow-lg"
             />
           </div>
@@ -37,7 +38,7 @@ const Aboutme = ({ id }) => {
               <div className="mt-1 lg:max-w-lg info-text">
                 🌟 I&apos;m all about turning design into reality and enhancing
                 user interactions.
-                <span className="text-coral-red">
+                <span className="text-coral-red text-red-600">
                   Let&apos;s connect and create something amazing together!
                 </span>
               </div>

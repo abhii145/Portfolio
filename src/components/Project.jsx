@@ -29,9 +29,11 @@ const Project = ({ id }) => {
               <div className="flex flex-col md:flex-row md:items-center gap-8">
                 <div className="w-full md:w-1/2 mb-4 md:mb-0">
                   <img
+                    loading="lazy"
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-[400px] rounded-lg shadow-lg"
+                    aria-label={project.title}
+                    className="w-[300px] h-[300px] rounded-lg shadow-lg object-contain"
                   />
                 </div>
                 <div className="w-full md:w-1/2 text-left">
@@ -45,7 +47,7 @@ const Project = ({ id }) => {
                   <div className="flex mb-4">
                     <div className="mr-2">
                       <div className="flex items-center mb-4">
-                        <strong className="mr-2 text-coral-red">
+                        <strong className="mr-2 text-coral-red text-red-600">
                           Technology:
                         </strong>
                         {project.technology.map((tech, index) => (
@@ -54,6 +56,7 @@ const Project = ({ id }) => {
                             key={index}
                             src={technologyIcons[tech]}
                             alt={tech}
+                            aria-label={tech}
                             className="w-6 h-6 inline-block mr-1 sm:w-4 sm:h-4 md:w-9 md:h-9 lg:w-12 lg:h-12"
                           />
                         ))}
@@ -65,12 +68,13 @@ const Project = ({ id }) => {
                       href={project.githubLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-colors duration-300"
+                      className="flex items-center px-4 py-2 bg-blue-700 text-white rounded-xl hover:bg-blue-900 transition-colors duration-300"
                     >
-                      <span className="mr-2">Code</span>
+                      <span className="mr-2 text-gray-200">Code</span>
                       <img
                         src={githubIcon}
                         alt="GitHub Icon"
+                        aria-label="GitHub Icon"
                         className="w-6 h-6 inline-block"
                       />
                     </a>
@@ -78,12 +82,13 @@ const Project = ({ id }) => {
                       href={project.demoLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center px-4 py-2 bg-green-500 text-white rounded-xl hover:bg-green-700 transition-colors duration-300 ml-2"
+                      className="flex items-center px-4 py-2 bg-green-700 text-white rounded-xl hover:bg-green-900 transition-colors duration-300 ml-2"
                     >
-                      <span className="mr-2">Live demo</span>
+                      <span className="mr-2 text-gray-200">Live demo</span>
                       <img
                         src={wwwIcon}
                         alt="Demo Icon"
+                        aria-label="Demo Icon"
                         className="w-6 h-6 inline-block"
                       />
                     </a>

@@ -42,11 +42,11 @@ const Hero = ({ id }) => {
         <img
           src={meImage}
           alt="Abhishek Yadav"
+          aria-label="Abhishek Yadav"
           width={570}
           height={522}
           className="object-contain"
-          loading="lazy" // Lazy load the image
-          // Consider optimizing this image outside of React
+          loading="eager"
         />
       </div>
     </section>

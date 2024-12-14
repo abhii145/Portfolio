@@ -70,6 +70,7 @@ const ExperienceTimeline = ({ id }) => {
                   src={experience.icon}
                   style={{ maxWidth: "100%", maxHeight: "100%" }}
                   alt="Company Icon"
+                  aria-label="Company Icon"
                 />
               }
             >
@@ -125,6 +126,7 @@ const ExperienceTimeline = ({ id }) => {
                   src={experience.icon}
                   style={{ maxWidth: "100%", maxHeight: "100%" }}
                   alt="Company Icon"
+                  aria-label="Company Icon"
                 />
               }
             >
