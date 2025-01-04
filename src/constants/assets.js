@@ -1,6 +1,5 @@
-import threads from "../assets/images/threads.png"
 import festifind from "../assets/images/festifind.png"
-import reactquery from "../assets/images/react-query.png"
+import shopeasy from "../assets/images/ShopEasy.png"
 
 import htmlIcon from "../assets/icon/html.svg"
 import awsS3Bucket from "../assets/icon/awsS3.svg"
@@ -20,11 +19,11 @@ import jest from "../assets/icon/jest.svg"
 import node from "../assets/icon/node.svg"
 import docker from "../assets/icon/docker.svg"
 import storybook from "../assets/icon/storybook.svg"
+import razorpay from "../assets/icon/razorpay.svg"
 
 export const images = {
-  threads,
   festifind,
-  reactquery,
+  shopeasy,
 }
 
 export const icons = {
@@ -46,4 +45,5 @@ export const icons = {
   node,
   docker,
   storybook,
+  razorpay,
 }

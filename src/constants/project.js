@@ -18,36 +18,22 @@ export const projects = [
     demoLink: "https://festifind-near.vercel.app/",
   },
   {
-    title: "Threads-clone",
-    image: images.threads,
+    title: "ShopEasy",
+    image: images.shopeasy,
     description:
-      "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
+      "Developed a React-based e-commerce platform with pagination, search, filters, product details, cart management, favorites, Razorpay payments, order history, receipts, and a coupon system. Used React Query, Redux Toolkit, and React Router DOM. Achieved 90%+ test coverage with React Testing Library, Snapshot Testing, Playwright, and Allure reporting.",
     technology: [
-      "nextjsIcon",
+      "reactIcon",
       "tsIcon",
       "tailwindIcon",
       "reduxIcon",
-      "mongoDBIcon",
-      "clerkIcon",
-    ],
-    githubLink: "https://github.com/abhii145/threads",
-    demoLink: "https://threads-abhii145.vercel.app/",
-  },
-  {
-    title: "Ecommerce",
-    image: images.reactquery,
-    description:
-      "A modern e-commerce app built with React, offering product listing with pagination, search, filters, detailed views, cart management, and favorites. Features React Query, Redux Toolkit, and React Router DOM. Achieves 95% test coverage using React Testing Library, Snapshot Testing, and Playwright for end to end testing.",
-    technology: [
-      "reactIcon",
-      "tailwindIcon",
-      "reduxIcon",
       "reactqueryIcon",
+      "razorpay",
       "jest",
       "playwright",
     ],
-    githubLink: "https://github.com/abhii145/react-query",
-    demoLink: "https://react-query-ecom.vercel.app/",
+    githubLink: "https://github.com/abhii145/ecommerce",
+    demoLink: "https://ecommerce-shopeasy.vercel.app/",
   },
 ]
 

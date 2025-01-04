@@ -33,7 +33,7 @@ const Project = ({ id }) => {
                     src={project.image}
                     alt={project.title}
                     aria-label={project.title}
-                    className="w-[300px] h-[300px] rounded-lg shadow-lg object-contain"
+                    className="w-[350px] h-[350px] rounded-lg shadow-lg object-contain"
                   />
                 </div>
                 <div className="w-full md:w-1/2 text-left">

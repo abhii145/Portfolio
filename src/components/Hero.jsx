@@ -2,7 +2,7 @@ import meImage from "../assets/images/me.jpg"
 import { BiSolidDownload } from "react-icons/bi"
 
 const Hero = ({ id }) => {
-  const resumeLink = "./Full_Stack_developer.pdf"
+  const resumeLink = "./Full_Stack_Developer.pdf"
 
   const handleDownloadResume = () => {
     const link = document.createElement("a")
