@@ -1,5 +1,5 @@
 import festifind from "../assets/images/festifind.png"
-import shopeasy from "../assets/images/ShopEasy.png"
+import shopeasy from "../assets/images/shopeasy.png"
 
 import htmlIcon from "../assets/icon/html.svg"
 import awsS3Bucket from "../assets/icon/awsS3.svg"

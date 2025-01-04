@@ -1,9 +1,9 @@
-import Slider from "react-slick"
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import wwwIcon from "../assets/icon/www.svg"
-import githubIcon from "../assets/icon/github.svg"
-import { projects, technologyIcons } from "../constants/project"
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import wwwIcon from "../assets/icon/www.svg";
+import githubIcon from "../assets/icon/github.svg";
+import { projects, technologyIcons } from "../constants/project";
 
 const Project = ({ id }) => {
   const settings = {
@@ -14,7 +14,7 @@ const Project = ({ id }) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-  }
+  };
 
   return (
     <div id={id}>
@@ -47,7 +47,7 @@ const Project = ({ id }) => {
                   <div className="flex mb-4">
                     <div className="mr-2">
                       <div className="flex items-center mb-4">
-                        <strong className="mr-2 text-coral-red text-red-600">
+                        <strong className="mr-2 text-red-600">
                           Technology:
                         </strong>
                         {project.technology.map((tech, index) => (
@@ -100,7 +100,7 @@ const Project = ({ id }) => {
         </Slider>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
