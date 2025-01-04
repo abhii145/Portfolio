@@ -1,9 +1,9 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import wwwIcon from "../assets/icon/www.svg";
-import githubIcon from "../assets/icon/github.svg";
-import { projects, technologyIcons } from "../constants/project";
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import wwwIcon from "../assets/icon/www.svg"
+import githubIcon from "../assets/icon/github.svg"
+import { projects, technologyIcons } from "../constants/project"
 
 const Project = ({ id }) => {
   const settings = {
@@ -14,13 +14,13 @@ const Project = ({ id }) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-  };
+  }
 
   return (
     <div id={id}>
       <div className="container mx-auto">
         <h2 className="text-3xl font-semibold mb-6 text-pblue">Project</h2>
-        <h2 className="text-xl  mb-6 text-blue">
+        <h2 className="text-xl mb-6 text-blue">
           Each project is a unique piece of development 🧩
         </h2>
         <Slider {...settings}>
@@ -44,24 +44,18 @@ const Project = ({ id }) => {
                     {project.description}
                   </p>
 
-                  <div className="flex mb-4">
-                    <div className="mr-2">
-                      <div className="flex items-center mb-4">
-                        <strong className="mr-2 text-red-600">
-                          Technology:
-                        </strong>
-                        {project.technology.map((tech, index) => (
-                          <img
-                            loading="lazy"
-                            key={index}
-                            src={technologyIcons[tech]}
-                            alt={tech}
-                            aria-label={tech}
-                            className="w-6 h-6 inline-block mr-1 sm:w-4 sm:h-4 md:w-9 md:h-9 lg:w-12 lg:h-12"
-                          />
-                        ))}
-                      </div>
-                    </div>
+                  <div className="flex flex-wrap mb-4">
+                    <strong className="mr-2 text-red-600">Technology:</strong>
+                    {project.technology.map((tech, index) => (
+                      <img
+                        loading="lazy"
+                        key={index}
+                        src={technologyIcons[tech]}
+                        alt={tech}
+                        aria-label={tech}
+                        className="w-6 h-6 inline-block mr-1 sm:w-4 sm:h-4 md:w-9 md:h-9 lg:w-12 lg:h-12"
+                      />
+                    ))}
                   </div>
                   <div className="flex justify-between">
                     <a
@@ -100,7 +94,7 @@ const Project = ({ id }) => {
         </Slider>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Project;
+export default Project
