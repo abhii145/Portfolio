@@ -21,7 +21,7 @@ const Hero = ({ id }) => {
           Full Stack Developer
         </h2>
         <p className="mt-4 lg:max-w-lg info-text text-lg mb-4 info-text font-medium text-gray-500">
-          Hi, I&apos;m Abhishek Yadav. A passionate Full Stack Developer with 5
+          Hi, I&apos;m Abhishek Yadav. A passionate Full Stack Developer with 6
           years of professional experience in building robust Full Stack web
           applications using the <b>MERN stack & Next.js</b>. I specialize in
           creating intuitive and visually engaging web applications, with a
