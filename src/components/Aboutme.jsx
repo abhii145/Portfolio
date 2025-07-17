@@ -18,7 +18,7 @@ const Aboutme = ({ id }) => {
           <div className="w-full md:w-1/2 text-left">
             <div className="lg:max-w-lg info-text">
               👋 Hey there! I&apos;m Abhishek Yadav, a passionate Full Stack
-              Developer with 5 years of hands-on experience in crafting
+              Developer with 6 years of hands-on experience in crafting
               captivating web experiences.
               <div className="mt-1 lg:max-w-lg info-text">
                 🚀 My journey began with HTML and CSS, and over the years,
