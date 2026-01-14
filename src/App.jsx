@@ -8,12 +8,10 @@ import {
   Skills,
   ExperienceTimeline,
 } from "./components"
-import ScrollToTop from "react-scroll-to-top"
 
 const App = () => {
   return (
     <main className="relative">
-      <ScrollToTop smooth />
       <Navbar />
       <section className="xl:padding-l wide:padding-r padding-b padding">
         <Hero id="hero" />
