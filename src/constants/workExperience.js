@@ -1,30 +1,27 @@
-import here from "../assets/icon/here.svg"
-import Lti from "../assets/icon/Lti.svg"
-import ey from "../assets/icon/EY.svg"
+import here from "../assets/icon/here.svg";
+import Lti from "../assets/icon/Lti.svg";
+import ey from "../assets/icon/EY.svg";
 import jpmorgan from "../assets/icon/JPMorgan_logo.svg";
 
 export const experiences = [
-  // {
-  //   title: "Software Engineer II",
-  //   company_name: "JP Morgan",
-  //   icon: jpmorgan,
-  //   iconBg: "#D0D0D0",
-  //   date: "March 2026 - Present",
-  //   points: [
-  //     "Spearheaded the development of Banking Domain web applications using React.js and Redux, ensuring efficient state management and adhering to Micro UI architecture principles.",
-  //     "Collaborated closely with stakeholders to understand project requirements and implemented responsive layouts for enhanced user experience across devices.",
-  //     "Developed and documented reusable UI components in Storybook, streamlining the development process and ensuring consistent design across the application.",
-  //     "Conducted regular code reviews, incorporating unit testing with Jest and writing test cases using React Testing Library to maintain high code quality and identify optimization opportunities.",
-  //     "Published a package using JFrog and written smoke tests for Playwright to ensure the basic functionality of web applications.",
-  //     "Presented technical solutions in client meetings and effectively addressed client concerns.",
-  //   ],
-  // },
+  {
+    title: "Software Engineer II",
+    company_name: "JP Morgan",
+    icon: jpmorgan,
+    iconBg: "#D0D0D0",
+    date: "March 2026 - Present",
+    points: [
+      "Working on CIM for a commercial investment banking project, building secure and scalable frontend workflows.",
+      "Implemented reusable React components and state management patterns to support complex transaction onboarding and analytics.",
+      "Collaborated with cross-functional teams to deliver responsive UI features and ensure compliance with banking requirements.",
+    ],
+  },
   {
     title: "Senior Software Engineer",
     company_name: "EY",
     icon: ey,
     iconBg: "#D0D0D0",
-    date: "Dec 2023 - Present",
+    date: "Dec 2023 - March 2026",
     points: [
       "Spearheaded the development of Banking Domain web applications using React.js and Redux, ensuring efficient state management and adhering to Micro UI architecture principles.",
       "Collaborated closely with stakeholders to understand project requirements and implemented responsive layouts for enhanced user experience across devices.",
